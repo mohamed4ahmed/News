@@ -1,0 +1,23 @@
+.container {
+    display: flex;
+}
+
+.fixeds {
+    max-width: 100px;
+    background-color: rgb(233, 205, 230);
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    overflow-y: auto;
+    flex-grow: 1;
+}
+.contiant {
+    flex-wrap: wrap;
+    border: 1px solid rgb(162, 156, 156);
+}
+.SPan { 
+    margin: 1.2px;
+}
